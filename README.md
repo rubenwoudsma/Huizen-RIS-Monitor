@@ -29,3 +29,19 @@ Je kunt de live-versie van deze monitor bekijken op:
 1. Clone de repository: 
    ```bash
    git clone [https://github.com/rubenwoudsma/huizen-ris-monitor.git](https://github.com/rubenwoudsma/huizen-ris-monitor.git)
+2. Installeer de vereisten:
+   ```bash
+   pip install -r requirements.txt
+3. Start de app:
+   ```bash
+   streamlit run streamlit_app.py
+
+## 💡 Inspiratie & Credits
+Dit project is een praktische invulling van mijn pleidooi voor een transparantere digitale overheid en is geïnspireerd door:
+
+* Bert Hubert (OpenTK): Voor de visie dat presentatie van data essentieel is voor democratie.
+* Open State Foundation: Voor hun jarenlange pionierswerk rondom open raadsinformatie.
+* VNG Realisatie: Voor het ontwikkelen van de ODS-standaard.
+
+## 📄 Licentie
+Dit project is open-source en beschikbaar onder de GNU General Public License v3.0 (GPL-3.0). Zie het LICENSE bestand voor meer details.
